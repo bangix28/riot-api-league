@@ -170,6 +170,11 @@ class LeagueAPI extends BaseAPI
 		self::RESOURCE_TOURNAMENT_STUB,
 	];
 
+    public function test()
+    {
+        return 'librairie local';
+    }
+
 	public function _setupCacheCalls(): void
     {
 		if ($this->isSettingSet($this::SET_CACHE_CALLS_LENGTH) == false)

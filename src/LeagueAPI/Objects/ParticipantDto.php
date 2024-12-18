@@ -170,6 +170,22 @@ class ParticipantDto extends ApiObjectLinkable
 	 */
 	public int $playerAugment4;
 
+    /**
+     * Available when received from:
+     *   - @see LeagueAPI::getMatch
+     *
+     * @var int $playerAugment5
+     */
+    public int $playerAugment5;
+
+    /**
+     * Available when received from:
+     *   - @see LeagueAPI::getMatch
+     *
+     * @var int $playerAugment6
+     */
+    public int $playerAugment6;
+
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
@@ -281,6 +297,14 @@ class ParticipantDto extends ApiObjectLinkable
 	 * @var int $pushPings
 	 */
 	public int $pushPings;
+
+    /**
+     * Available when received from:
+     *   - @see LeagueAPI::getMatch
+     *
+     * @var int $retreatPings
+     */
+    public int $retreatPings;
 
 	/**
 	 * Available when received from:
