@@ -190,105 +190,105 @@ class ParticipantDto extends ApiObjectLinkable
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore0
+	 * @var int $PlayerScore0
 	 */
-	public int $playerScore0;
+	public int $PlayerScore0;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore1
+	 * @var int $PlayerScore1
 	 */
-	public int $playerScore1;
+	public int $PlayerScore1;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore10
+	 * @var int $PlayerScore10
 	 */
-	public int $playerScore10;
+	public int $PlayerScore10;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore11
+	 * @var int $PlayerScore11
 	 */
-	public int $playerScore11;
+	public int $PlayerScore11;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore2
+	 * @var int $PlayerScore2
 	 */
-	public int $playerScore2;
+	public int $PlayerScore2;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore3
+	 * @var int $PlayerScore3
 	 */
-	public int $playerScore3;
+	public int $PlayerScore3;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore4
+	 * @var int $PlayerScore4
 	 */
-	public int $playerScore4;
+	public int $PlayerScore4;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore5
+	 * @var int $PlayerScore5
 	 */
-	public int $playerScore5;
+	public int $PlayerScore5;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore6
+	 * @var int $PlayerScore6
 	 */
-	public int $playerScore6;
+	public int $PlayerScore6;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore7
+	 * @var int $PlayerScore7
 	 */
-	public int $playerScore7;
+	public int $PlayerScore7;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore8
+	 * @var int $PlayerScore8
 	 */
-	public int $playerScore8;
+	public int $PlayerScore8;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerScore9
+	 * @var int $PlayerScore9
 	 */
-	public int $playerScore9;
+	public int $PlayerScore9;
 
 	/**
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $playerSubteamId
+	 * @var int $PlayerSubteamId
 	 */
-	public int $playerSubteamId;
+	public int $PlayerSubteamId;
 
 	/**
 	 * Available when received from:
