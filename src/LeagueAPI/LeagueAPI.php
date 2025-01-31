@@ -2111,11 +2111,11 @@ class LeagueAPI extends BaseAPI
 	/**
 	 * ==================================================================dd=
 	 *     Tournament Stub Endpoint Methods
-	 *     @link https://developer.riotgames.com/apis#tournament-stub-v4
+	 *     @link https://developer.riotgames.com/apis#tournament-stub-v5
 	 * ==================================================================dd=
 	 **/
 	const RESOURCE_TOURNAMENT_STUB = '1435:tournament-stub';
-	const RESOURCE_TOURNAMENT_STUB_VERSION = 'v4';
+	const RESOURCE_TOURNAMENT_STUB_VERSION = 'v5';
 
 	/**
 	 *   Create a mock tournament code for the given tournament.
@@ -2133,7 +2133,7 @@ class LeagueAPI extends BaseAPI
 	 * @throws ServerLimitException
 	 * @throws GeneralException
 	 *
-	 * @link https://developer.riotgames.com/apis#tournament-stub-v4/POST_createTournamentCode
+	 * @link https://developer.riotgames.com/apis#tournament-stub-v4v4/POST_createTournamentCode
 	 *
 	 * @internal
 	 */
