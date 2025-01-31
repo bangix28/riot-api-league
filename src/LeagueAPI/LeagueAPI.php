@@ -1842,7 +1842,7 @@ class LeagueAPI extends BaseAPI
 	 * ==================================================================dd=
 	 **/
 	const RESOURCE_TOURNAMENT = '1436:tournament';
-	const RESOURCE_TOURNAMENT_VERSION = 'v4';
+	const RESOURCE_TOURNAMENT_VERSION = 'v5';
 
 	/**
 	 *   Creates set of tournament codes for given tournament.
@@ -1863,7 +1863,7 @@ class LeagueAPI extends BaseAPI
 	 * @throws ServerLimitException
 	 * @throws GeneralException
 	 *
-	 * @link https://developer.riotgames.com/apis#tournament-v4/POST_createTournamentCode
+	 * @link https://developer.riotgames.com/apis#tournament-v5/POST_createTournamentCode
 	 */
 	public function createTournamentCodes( int $tournament_id, int $count, TournamentCodeParameters $parameters ): array
 	{
