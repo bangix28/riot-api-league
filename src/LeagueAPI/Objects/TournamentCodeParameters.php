@@ -46,9 +46,9 @@ class TournamentCodeParameters extends ApiObject
 	 *   - @see LeagueAPI::createTournamentCode
 	 *   - @see LeagueAPI::createTournamentCode
 	 *
-	 * @var string[] $allowedSummonerIds
+	 * @var string[] $allowedParticipants
 	 */
-	public array $allowedSummonerIds;
+	public array $allowedParticipants;
 
 	/**
 	 * Optional string that may contain any data in any format, if specified
