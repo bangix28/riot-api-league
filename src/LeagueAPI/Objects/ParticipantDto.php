@@ -288,7 +288,7 @@ class ParticipantDto extends ApiObjectLinkable
 	 *
 	 * @var int $playerSubteamId
 	 */
-	public int $PlayerSubteamId;
+	public int $playerSubteamId;
 
 	/**
 	 * Available when received from:
