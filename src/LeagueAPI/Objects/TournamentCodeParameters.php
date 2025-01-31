@@ -107,4 +107,15 @@ class TournamentCodeParameters extends ApiObject
 	 * @var string $spectatorType
 	 */
 	public string $spectatorType;
+
+    /**
+     * Checks if allowed participants are enough to make full teams.
+     *
+     * Available when received from:
+     *   - @see LeagueAPI::createTournamentCode
+     *   - @see LeagueAPI::createTournamentCode
+     *
+     * @var boolean $enoughPlayers
+     */
+    public bool $enoughPlayers ;
 }
