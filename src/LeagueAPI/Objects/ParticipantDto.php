@@ -286,7 +286,7 @@ class ParticipantDto extends ApiObjectLinkable
 	 * Available when received from:
 	 *   - @see LeagueAPI::getMatch
 	 *
-	 * @var int $PlayerSubteamId
+	 * @var int $playerSubteamId
 	 */
 	public int $PlayerSubteamId;
 
