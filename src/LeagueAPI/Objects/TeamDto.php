@@ -40,6 +40,14 @@ class TeamDto extends ApiObject
      */
     public array $bans;
 
+ /**
+     * Available when received from:
+     *   - @see LeagueAPI::getMatch
+     *
+     * @var TeamDto[] $feats
+     */
+    public array $feats;
+
     /**
      * Available when received from:
      *   - @see LeagueAPI::getMatch
