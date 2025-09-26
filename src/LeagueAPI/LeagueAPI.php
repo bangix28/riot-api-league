@@ -864,9 +864,9 @@ class LeagueAPI extends BaseAPI
 	 *
 	 * @link https://developer.riotgames.com/apis#league-v4/GET_getLeagueEntriesForSummoner
 	 */
-	public function getLeagueEntriesForSummoner( string $encrypted_summoner_id ): ?array
+	public function getLeagueEntriesForSummoner( string $encrypted_puuid_id ): ?array
 	{
-		$resultPromise = $this->setEndpoint("/lol/league/" . self::RESOURCE_LEAGUE_VERSION . "/entries/by-summoner/$encrypted_summoner_id")
+        $resultPromise = $this->setEndpoint("/lol/league/" . self::RESOURCE_LEAGUE_VERSION . "/entries/by-puuid/$encrypted_puuid_id")
 			->setResource(self::RESOURCE_LEAGUE, "/entries/by-summoner/%s")
 			->makeCall();
 
